@@ -1,12 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Header } from "@/components/landing/Header";
+import { Hero } from "@/components/landing/Hero";
+import { Services } from "@/components/landing/Services";
+import { Results } from "@/components/landing/Results";
+import { HowItWorks } from "@/components/landing/HowItWorks";
+import { WhyChoose } from "@/components/landing/WhyChoose";
+import { ContactForm } from "@/components/landing/ContactForm";
+import { About } from "@/components/landing/About";
+import { Testimonials } from "@/components/landing/Testimonials";
+import { FinalCTA } from "@/components/landing/FinalCTA";
+import { Footer } from "@/components/landing/Footer";
+import { FloatingWhatsApp } from "@/components/landing/FloatingWhatsApp";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main>
+        <Hero />
+        <Services />
+        <Results />
+        <HowItWorks />
+        <WhyChoose />
+        <ContactForm />
+        <About />
+        <Testimonials />
+        <FinalCTA />
+      </main>
+      <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };
