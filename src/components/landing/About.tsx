@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import eaLogo from "@/assets/ea-logo.png";
 
 export const About = () => {
   return (
@@ -11,11 +12,13 @@ export const About = () => {
             <CardContent className="p-0">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
                 {/* Image Side */}
-                <div className="relative h-64 md:h-auto bg-gradient-to-br from-primary/20 to-purple-500/20 flex items-center justify-center">
+                <div className="relative h-64 md:h-auto bg-gradient-to-br from-background to-card flex items-center justify-center">
                   <div className="text-center p-8">
-                    <div className="w-32 h-32 rounded-full bg-primary/20 border-4 border-primary mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-4xl font-bold text-primary">EA</span>
-                    </div>
+                    <img 
+                      src={eaLogo} 
+                      alt="E.A. System Logo - Elohim Algorithmus" 
+                      className="w-64 h-auto mx-auto mb-4"
+                    />
                     <p className="text-sm text-muted-foreground">Technology & Automation</p>
                   </div>
                 </div>
