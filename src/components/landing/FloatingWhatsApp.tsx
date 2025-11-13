@@ -3,9 +3,8 @@ import { Button } from "@/components/ui/button";
 
 export const FloatingWhatsApp = () => {
   const handleClick = () => {
-    // TODO: Adicionar número do WhatsApp real
-    const message = encodeURIComponent("Olá! Gostaria de saber mais sobre automação para meu negócio.");
-    window.open(`https://wa.me/5500000000000?text=${message}`, "_blank");
+    const message = encodeURIComponent("Oi Logan, gostaria de agendar com você um diagnóstico gratuíto para meu negócio");
+    window.open(`https://wa.me/5549999539181?text=${message}`, "_blank");
   };
 
   return (

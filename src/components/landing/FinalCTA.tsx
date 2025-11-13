@@ -3,9 +3,8 @@ import { MessageCircle, ArrowRight } from "lucide-react";
 
 export const FinalCTA = () => {
   const handleWhatsAppClick = () => {
-    // TODO: Adicionar número do WhatsApp real
-    const message = encodeURIComponent("Olá! Gostaria de conhecer as soluções E.A. System para meu negócio.");
-    window.open(`https://wa.me/5500000000000?text=${message}`, "_blank");
+    const message = encodeURIComponent("Oi Logan, gostaria de agendar com você um diagnóstico gratuíto para meu negócio");
+    window.open(`https://wa.me/5549999539181?text=${message}`, "_blank");
   };
 
   const scrollToContact = () => {
