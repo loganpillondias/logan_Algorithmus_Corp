@@ -23,7 +23,7 @@ export const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8">
             <Zap className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-foreground">Automação Inteligente para Negócios</span>
+            <span className="text-sm font-medium text-foreground">Elohim Algorithmus System</span>
           </div>
 
           {/* Main Heading */}
@@ -35,7 +35,11 @@ export const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            Eu crio sistemas inteligentes que economizam tempo, eliminam tarefas manuais e aumentam seus lucros — usando automação, IA e desenvolvimento sob medida.
+            Transformamos empresas em operações inteligentes que economizam tempo, eliminam trabalho manual e multiplicam resultados — com automação avançada, IA e tecnologia sob medida.
+          </p>
+          
+          <p className="text-lg text-primary font-semibold mb-8">
+            Inteligência Que Move Negócios
           </p>
 
           {/* CTA Buttons */}

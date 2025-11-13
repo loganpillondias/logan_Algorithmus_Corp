@@ -9,12 +9,12 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold text-gradient mb-4">Logan P. Dias</h3>
+            <h3 className="text-xl font-bold text-gradient mb-4">E.A. System</h3>
             <p className="text-muted-foreground text-sm mb-4">
-              Desenvolvedor & Consultor de Automação especializado em transformar negócios com tecnologia inteligente.
+              Elohim Algorithmus System — Empresa de tecnologia especializada em automação empresarial, IA e sistemas inteligentes para negócios que buscam escalar.
             </p>
             <p className="text-xs text-muted-foreground">
-              Integrado com N8N | Desenvolvimento inteligente e automações escaláveis
+              www.easystem.dev.br | Inteligência Que Move Negócios
             </p>
           </div>
 
@@ -98,7 +98,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Logan P. Dias — Todos os direitos reservados
+            © {currentYear} E.A. System - Elohim Algorithmus System — Todos os direitos reservados
           </p>
         </div>
       </div>

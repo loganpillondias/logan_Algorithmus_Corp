@@ -14,44 +14,44 @@ export const About = () => {
                 <div className="relative h-64 md:h-auto bg-gradient-to-br from-primary/20 to-purple-500/20 flex items-center justify-center">
                   <div className="text-center p-8">
                     <div className="w-32 h-32 rounded-full bg-primary/20 border-4 border-primary mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-4xl font-bold text-primary">LP</span>
+                      <span className="text-4xl font-bold text-primary">EA</span>
                     </div>
-                    <p className="text-sm text-muted-foreground">Desenvolvedor & Consultor</p>
+                    <p className="text-sm text-muted-foreground">Technology & Automation</p>
                   </div>
                 </div>
 
                 {/* Content Side */}
                 <div className="p-8 md:p-12 flex flex-col justify-center">
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Sobre <span className="text-gradient">mim</span>
+                    Sobre a <span className="text-gradient">E.A. System</span>
                   </h2>
                   
                   <div className="space-y-4 text-muted-foreground">
                     <p>
-                      Sou o <span className="text-foreground font-semibold">Logan P. Dias</span>, desenvolvedor e consultor de automação.
+                      A <span className="text-foreground font-semibold">E.A. System (Elohim Algorithmus System)</span> é uma empresa de tecnologia especializada em automação empresarial e inteligência artificial.
                     </p>
                     <p>
-                      Transformo negócios em sistemas inteligentes que operam no piloto automático. 
-                      Com anos de experiência em desenvolvimento web e automação de processos, 
-                      meu foco está em criar soluções que realmente fazem a diferença no dia a dia dos empresários.
+                      Transformamos negócios em operações inteligentes que funcionam no piloto automático. 
+                      Com expertise consolidada em desenvolvimento web, automação de processos e integração de sistemas, 
+                      nosso foco está em criar soluções tecnológicas que geram impacto real nos resultados das empresas.
                     </p>
                     <p>
-                      Trabalho com foco em <span className="text-foreground font-semibold">eficiência</span>, 
-                      <span className="text-foreground font-semibold"> estética</span> e 
-                      <span className="text-foreground font-semibold"> resultados reais</span>.
+                      Trabalhamos com compromisso em <span className="text-foreground font-semibold">eficiência operacional</span>, 
+                      <span className="text-foreground font-semibold"> excelência técnica</span> e 
+                      <span className="text-foreground font-semibold"> resultados mensuráveis</span>.
                     </p>
                     <p className="pt-4 flex flex-wrap gap-2">
                       <span className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm">
-                        N8N Expert
+                        N8N Enterprise
                       </span>
                       <span className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm">
                         React/TypeScript
                       </span>
                       <span className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm">
-                        IA & Automação
+                        IA & Machine Learning
                       </span>
                       <span className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm">
-                        APIs & Integrações
+                        APIs & Cloud Integration
                       </span>
                     </p>
                   </div>

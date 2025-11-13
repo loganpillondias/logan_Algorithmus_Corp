@@ -37,7 +37,7 @@ export const ContactForm = () => {
       // Simulação de delay
       await new Promise(resolve => setTimeout(resolve, 1500));
       
-      toast.success("Diagnóstico solicitado com sucesso! Entraremos em contato em breve.");
+      toast.success("Solicitação enviada com sucesso! A E.A. System entrará em contato em breve.");
       
       // Limpar formulário
       setFormData({
@@ -61,10 +61,10 @@ export const ContactForm = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12 animate-fade-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Solicite seu <span className="text-gradient">Diagnóstico Gratuito</span>
+            Agende sua <span className="text-gradient">Consultoria Gratuita</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Descubra como a automação pode transformar seu negócio. Sem compromisso, 100% gratuito.
+            Receba uma análise técnica personalizada de como a E.A. System pode transformar sua operação empresarial.
           </p>
         </div>
 
@@ -152,12 +152,12 @@ export const ContactForm = () => {
                 className="w-full"
                 disabled={isLoading}
               >
-                {isLoading ? "Enviando..." : "Quero meu diagnóstico gratuito"}
+                {isLoading ? "Enviando..." : "Solicitar Consultoria Gratuita"}
                 <Send className="ml-2 w-4 h-4" />
               </Button>
 
               <p className="text-xs text-center text-muted-foreground">
-                Ao enviar este formulário, você receberá uma mensagem no WhatsApp para agendar seu diagnóstico.
+                Ao enviar este formulário, você receberá contato da E.A. System para agendar sua consultoria técnica.
               </p>
             </form>
           </CardContent>

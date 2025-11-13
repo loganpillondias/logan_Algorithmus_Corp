@@ -17,7 +17,7 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-bold text-gradient">Logan P. Dias</div>
+          <div className="text-xl font-bold text-gradient">E.A. System</div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
